@@ -1,0 +1,175 @@
+/*======  End of Main menu css  =======*/
+/*=======================================
+=           [06] Main Slider css        =
+========================================*/
+.slider-overlay .nivoSlider .nivo-caption {
+  color: #444444;
+  padding: 0;
+  opacity: 1;
+}
+.slider-overlay .nivoSlider .nivo-caption:after {
+  background: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.slider-overlay-dark .nivoSlider .nivo-caption {
+  color: #444444;
+  padding: 0;
+  opacity: 1;
+}
+.slider-overlay-dark .nivoSlider .nivo-caption:after {
+  background: rgba(3, 23, 34, 0.6);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.slider-area .nivoSlider .nivo-caption {
+  color: #444444;
+  padding: 0;
+  opacity: 1;
+}
+.slider-area .nivoSlider .slider-content {
+  position: relative;
+  z-index: 99;
+}
+.slider-area .nivoSlider .slider-content .large-title {
+  color: #222222;
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+}
+.slider-area .nivoSlider .slider-content p {
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+  width: 50%;
+}
+.slider-area .nivoSlider .slider-content .slider-btn-area {
+  display: block;
+  margin-top: 40px;
+  text-align: left;
+}
+.slider-area .nivoSlider .slider-content .slider-btn-area .btn-fill-round {
+  display: inline-block;
+  background: #00A295;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 14px 20px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.slider-area .nivoSlider .slider-content .slider-btn-area .btn-fill-round:hover {
+  background: #a51c2d;
+}
+.slider-area .nivoSlider .slider-content .slider-btn-area .btn-fill-round i {
+  padding-left: 15px;
+}
+.slider-area .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: -15%;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.slider-area .nivoSlider .nivo-directionNav a.nivo-prevNav:before {
+  background: #ffffff;
+  color: #0d5ab5;
+  display: block;
+  font-family: 'FontAwesome';
+  content: "\f104";
+  font-size: 24px;
+  height: 50px;
+  width: 40px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.slider-area .nivoSlider .nivo-directionNav a.nivo-prevNav:hover:before {
+  background: #0d5ab5;
+  color: #ffffff;
+}
+.slider-area .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: -15%;
+  -webkit-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  -ms-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.slider-area .nivoSlider .nivo-directionNav a.nivo-nextNav:before {
+  background: #ffffff;
+  color: #0d5ab5;
+  display: block;
+  font-family: 'FontAwesome';
+  content: "\f105";
+  font-size: 24px;
+  height: 50px;
+  width: 40px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.slider-area .nivoSlider .nivo-directionNav a.nivo-nextNav:hover:before {
+  background: #0d5ab5;
+  color: #ffffff;
+}
+.slider-area .nivo-controlNav {
+  padding: 0;
+}
+.slider-area:hover .nivoSlider .nivo-directionNav a.nivo-prevNav {
+  left: 2%;
+}
+.slider-area:hover .nivoSlider .nivo-directionNav a.nivo-nextNav {
+  right: 2%;
+}
+.slider-content-center .nivoSlider .slider-content .large-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+}
+.slider-content-center .nivoSlider .slider-content .large-upper-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+}
+.slider-content-center .nivoSlider .slider-content p {
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+}
+.slider-content-center .nivoSlider .slider-content .slider-btn-area {
+  text-align: center;
+}
